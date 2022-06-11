@@ -3,14 +3,14 @@ import './Experience.css'
 
 const Experience = () => {
   return (
-   <div className="experience">
+   <div className="experience" id='Experience'>
      <div className="achievement">
-       <div className="circle">8+</div>
+       <div className="circle">1+</div>
        <span>Years</span>
        <span>Experience</span>
      </div>
      <div className="achievement">
-       <div className="circle">20+</div>
+       <div className="circle">10+</div>
        <span>Completed</span>
        <span>Projects</span>
      </div>

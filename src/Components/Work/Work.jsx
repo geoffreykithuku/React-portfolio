@@ -2,26 +2,28 @@ import React from 'react'
 import './Work.css'
 import Upwork from '../../img/Upwork.png';
 import Fiverr from '../../img/fiverr.png';
-import Amazon from '../../img/amazon.png';
-import Shopify from '../../img/Shopify.png';
-import Facebook from '../../img/Facebook.png';
+import EBC from '../../img/ebc.png';
+import JIM from '../../img/jim.png';
+import WSG from '../../img/workspace.png';
 
 const Work = () => {
   return (
-   <div className="works">
+   <div className="works" id='Works'>
        {/* left side */}
      <div className="awesome">
        <span>Worked for These</span>
        <span>Brands & Clients</span>
        <span>
-           Lorem ipsum dolor sit amet consectetur 
+           Upwork (Freelancer)
          
          <br/>
-         nemo dignissimos. Adipisci doloribus sequi magni
+         Fiverr (Freelancer)
          <br/>
-         nemo dignissimos. Adipisci doloribus sequi magni
+         Experts Business College
          <br/>
-         nemo dignissimos. Adipisci doloribus sequi magni
+                  Jimtech IT Solutions
+                  <br/>
+                      Workspace Global
          
           
          </span>
@@ -42,13 +44,13 @@ const Work = () => {
                  <img src={Fiverr} alt="" />
              </div>
              <div className="seccircle">
-                 <img src={Amazon} alt="" />
+                 <img src={EBC} alt="" />
              </div>
              <div className="seccircle">
-                 <img src={Facebook} alt="" />
+                 <img src={JIM} alt="" />
              </div>
              <div className="seccircle">
-                 <img src={Shopify} alt="" />
+                 <img src={WSG} alt="" />
             
              </div>
              </div>

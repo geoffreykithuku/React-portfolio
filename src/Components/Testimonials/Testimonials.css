@@ -67,3 +67,20 @@
 .t-wrapper .swiper-pagination-bullet-active{
     color: var(--orange);
 }
+@media screen and (max-width:480px){
+    .t-wrapper{
+        padding: 0;
+         flex-direction: column;
+        height: 55rem;
+        padding: 0;
+        gap: 5rem;
+        
+    }
+    .testimonial>img{
+        width: 70px;
+        height: 70px;
+    }
+    
+    
+
+}
